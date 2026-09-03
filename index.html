@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Артём Гаврилов — Портфолио</title>
+  <meta name="description" content="Студент, разработчик и исследователь. Учебные достижения, проекты, научные работы и инженерное портфолио Артёма Гаврилова." />
+  <meta name="author" content="Артём Гаврилов" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Артём Гаврилов — Портфолио" />
+  <meta property="og:description" content="Студент, разработчик и исследователь. Проекты, научные работы и достижения." />
+  <meta property="og:url" content="https://artyom-gavrilov.github.io/portfolio/" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="brand" href="#top">
+        <span class="brand-mark">АГ</span>
+        <span class="brand-name">Артём Гаврилов</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#research">Наука</a></li>
+        <li><a href="#achievements">Достижения</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li><button class="theme-toggle" id="themeToggle" aria-label="Переключить тему" title="Тёмная/светлая тема">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============== HERO ============== -->
+    <section class="hero section" aria-label="Приветственный блок">
+      <div class="container hero-inner reveal">
+        <div class="hero-text">
+          <p class="eyebrow">Студент · Разработчик · Исследователь</p>
+          <h1 class="hero-title">Артём Гаврилов</h1>
+          <p class="hero-subtitle">
+            Строю надёжные инженерные решения, исследую новые технологии и превращаю
+            идеи в работающие продукты. Ниже — мои проекты, научные работы и достижения.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+            <a class="btn btn-ghost" href="#contact">Связаться</a>
+          </div>
+          <ul class="hero-meta" aria-label="Краткая информация">
+            <li>📍 Открыт к сотрудничеству</li>
+            <li>🎓 Университет</li>
+            <li>🔬 Research &amp; Engineering</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar">
+            <svg viewBox="0 0 200 200" role="img" aria-label="Монограмма АГ">
+              <defs>
+                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#4f46e5"/>
+                  <stop offset="1" stop-color="#0ea5e9"/>
+                </linearGradient>
+              </defs>
+              <rect width="200" height="200" rx="48" fill="url(#g)"/>
+              <text x="100" y="128" text-anchor="middle" font-family="Inter, sans-serif" font-size="72" font-weight="800" fill="#ffffff">АГ</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== ABOUT ============== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Обо мне</p>
+          <h2 class="section-title">Кто я и чем занимаюсь</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Меня зовут <strong>Артём Гаврилов</strong>. Я студент, увлечённый
+              программированием, инженерией и исследовательской работой. Люблю разбираться
+              в том, как устроены сложные системы, и доводить решения до результата —
+              от прототипа до продукта.
+            </p>
+            <p>
+              Своё время я делю между учебой, практическими проектами и научными
+              публикациями. Стараюсь писать аккуратный код, документировать решения и
+              выстраивать воспроизводимые эксперименты. Открыт к интересным задачам,
+              стажировкам и совместным исследованиям.
+            </p>
+          </div>
+          <aside class="about-facts reveal">
+            <h3>Коротко о главном</h3>
+            <dl>
+              <div><dt>Направление</dt><dd>Инженерия и исследования</dd></div>
+              <div><dt>Фокус</dt><dd>Full-stack, данные, исследования</dd></div>
+              <div><dt>Формат работы</dt><dd>Учёба + проекты, готов к стажировкам</dd></div>
+              <div><dt>Статус</dt><dd>Open to collaboration</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SKILLS ============== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Навыки</p>
+          <h2 class="section-title">Чем я владею</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">💻</div>
+            <h3>Разработка</h3>
+            <ul class="tags">
+              <li>Python</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>SQL</li>
+              <li>REST API</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">📊</div>
+            <h3>Данные и исследования</h3>
+            <ul class="tags">
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+              <li>Jupyter</li>
+              <li>Статистика</li>
+              <li>Аналитика</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">🛠️</div>
+            <h3>Инженерия и инфраструктура</h3>
+            <ul class="tags">
+              <li>Git</li>
+              <li>Linux</li>
+              <li>Docker</li>
+              <li>CI/CD</li>
+              <li>LaTeX</li>
+              <li>Архитектура</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== PROJECTS ============== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Проекты</p>
+          <h2 class="section-title">Избранные проекты</h2>
+          <p class="section-sub">Несколько идей, которые я довёл до работающего результата.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-head">
+              <span class="project-tag">Web</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-title">Название проекта №1</h3>
+            <p class="project-desc">
+              Короткое описание: какую задачу решает, что внутри и почему это интересно.
+              Добавьте 1–2 предложения о результате.
+            </p>
+            <ul class="tags">
+              <li>Python</li><li>Flask</li><li>React</li><li>PostgreSQL</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="link">Код ↗</a>
+              <a href="#" class="link">Демо ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-head">
+              <span class="project-tag">Data / Research</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3 class="project-title">Название проекта №2</h3>
+            <p class="project-desc">
+              Короткое описание: аналитика, исследовательский эксперимент или работа с
+              данными. Что измеряли и какой вывод получился.
+            </p>
+            <ul class="tags">
+              <li>Python</li><li>Pandas</li><li>Jupyter</li><li>Matplotlib</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="link">Код ↗</a>
+              <a href="#" class="link">Отчёт ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-head">
+              <span class="project-tag">Engineering</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3 class="project-title">Название проекта №3</h3>
+            <p class="project-desc">
+              Короткое описание: инженерная задача, инструмент, автоматизация или
+              инфраструктурное решение. Что улучшили и как это можно использовать.
+            </p>
+            <ul class="tags">
+              <li>TypeScript</li><li>Node.js</li><li>Docker</li><li>CI</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" class="link">Код ↗</a>
+              <a href="#" class="link">README ↗</a>
+            </div>
+          </article>
+        </div>
+        <p class="post-grid-note reveal">Заполните карточки своими проектами — структура готова.</p>
+      </div>
+    </section>
+
+    <!-- ============== RESEARCH ============== -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Наука</p>
+          <h2 class="section-title">Публикации и исследования</h2>
+        </div>
+        <ol class="research-list">
+          <li class="research-item reveal">
+            <span class="research-year">2025</span>
+            <div class="research-body">
+              <h3>Название статьи или исследования</h3>
+              <p class="research-venue">Конференция / журнал</p>
+              <p class="research-desc">
+                Краткое описание темы, подхода и результата. Укажите соавторов или ссылку
+                на полный текст, если есть.
+              </p>
+              <a href="#" class="link">Полный текст ↗</a>
+            </div>
+          </li>
+          <li class="research-item reveal">
+            <span class="research-year">2024</span>
+            <div class="research-body">
+              <h3>Название статьи или исследования</h3>
+              <p class="research-venue">Конференция / журнал</p>
+              <p class="research-desc">
+                Краткое описание темы, подхода и результата. Укажите соавторов или ссылку
+                на полный текст, если есть.
+              </p>
+              <a href="#" class="link">Полный текст ↗</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============== ACHIEVEMENTS ============== -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Достижения и образование</p>
+          <h2 class="section-title">Мой путь</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <p class="timeline-period">2022 — настоящее время</p>
+              <h3>Университет / факультет</h3>
+              <p>Опишите основное направление учёбы, ключевые курсы и проекты.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <p class="timeline-period">2024</p>
+              <h3>Достижение, олимпиада или награда</h3>
+              <p>Пара слов: в чём участвовали и какой результат получили.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <p class="timeline-period">2023</p>
+              <h3>Курс / сертификат / стажировка</h3>
+              <p>Краткое описание обучения или опыта и что он дал в практическом плане.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CONTACT ============== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2 class="section-title">Давайте работать вместе</h2>
+          <p class="section-sub">Пишите — обсудим проект, стажировку или исследование.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card reveal" href="mailto:you@example.com">
+            <span class="contact-icon">✉️</span>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">you@example.com</span>
+          </a>
+          <a class="contact-card reveal" href="https://github.com/artyom-gavrilov" target="_blank" rel="noopener">
+            <span class="contact-icon">🐙</span>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@artyom-gavrilov</span>
+          </a>
+          <a class="contact-card reveal" href="https://t.me/username" target="_blank" rel="noopener">
+            <span class="contact-icon">💬</span>
+            <span class="contact-label">Telegram</span>
+            <span class="contact-value">@username</span>
+          </a>
+          <a class="contact-card reveal" href="https://www.linkedin.com/in/username" target="_blank" rel="noopener">
+            <span class="contact-icon">💼</span>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">/in/username</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Артём Гаврилов. Портфолио на GitHub Pages.</p>
+      <a href="#top" class="back-top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
